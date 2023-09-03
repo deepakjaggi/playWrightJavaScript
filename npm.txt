@@ -1,0 +1,16 @@
+npm init playwright@latest
+use tests folder
+    package.json  --- node project management file
+    playwright.config.js  -- playwright configuration
+    tests --- we can all teh playwright tests
+    npm playwright -v   -- return installed version of plawright.
+Install PlayWright Test for VSCode extention from extenstions - from this you will be able to run the tests
+    Name: Playwright Test for VSCode
+    Id: ms-playwright.playwright
+    Description: Run Playwright Test tests in Visual Studio Code.
+    Version: 1.0.15
+    Publisher: Microsoft
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright
+npx playwright test
+npx playwright test --headed        -- By Default PlayWright runs all the tests in parallel
+npx playwright show-report
